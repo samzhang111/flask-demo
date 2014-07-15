@@ -5,24 +5,27 @@ Python Flask.
 
 ###Flask Installation Process
 
-1. Create a new directory and change into it.
+(1) Create a new directory and change into it.
 
-2. Install Pip
+(2) Install Pip
 
-  - Download https://bootstrap.pypa.io/get-pip.py
-  - Run ``python get-pip.py`` (sudo, if you aren't on Windows)
-3. Install virtualenv
+- Download https://bootstrap.pypa.io/get-pip.py
+- Run ``python get-pip.py`` (sudo, if you aren't on Windows)
 
-  - ``pip install virtualenv``
-  - Within your project directory, run ``virtualenv flask-demo``
-  - Activate the virtual environment by running 
-    - Mac/Linux: ``source flask-demo/bin/activate``
-    - Windows: ``\flask-demo\bin\activate``
-4. Install flask and sqlalchemy
+(3) Install virtualenv
 
-  - ``pip install flask`` (dependencies included, yay!)
-  - ``pip install sqlalchemy``
-5. (Windows only) Install sqlite3, if you haven't already
+- ``pip install virtualenv``
+- Within your project directory, run ``virtualenv flask-demo``
+- Activate the virtual environment by running 
+  - Mac/Linux: ``source flask-demo/bin/activate``
+  - Windows: ``\flask-demo\bin\activate``
+
+(4) Install flask and sqlalchemy
+
+- ``pip install flask`` (dependencies included, yay!)
+- ``pip install sqlalchemy``
+
+(5) (Windows only) Install sqlite3, if you haven't already
 
   - [Instructions](http://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
 
