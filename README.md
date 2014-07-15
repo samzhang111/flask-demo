@@ -31,6 +31,12 @@ Python Flask.
 
 Eventually, to leave the virtualenv, run ``deactivate``
 
+###Example
+
+In the example, ``python make_db.py`` creates the database from the CSV file.
+
+Then, ``python run.py`` launches the application.
+
 ###Resources
 
 Miguel Grinberg is a god of Flask tutorials:
